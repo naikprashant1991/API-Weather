@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.134063">
+    <testcase classname="API Weather Map functionality tests" name="API Weather Map sign up functionality" time="34.134063">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;[Mumbai], IN&gt; but was:&lt;[Kolkata], IN&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.qa.stepDefinitions.stepDefinitions.system_should_display_correct_weather_information(stepDefinitions.java:113)&#13;&#10;&#9;at ✽.Then System should display correct weather information(F:/Automation Projects 1/APIWeather/src/main/java/com/qa/features/APIWeather.feature:16)&#13;&#10;">
+            <![CDATA[Given User opens a browser..................................................passed
+And User is on home screen..................................................passed
+When User clicks on sign In link............................................passed
+Then Sign In screen is displayed............................................passed
+When User enters "naik.prashant1991@yahoo.com" and "WeatherMap@123".........passed
+And click on Submit button..................................................passed
+Then User should be logged into the application.............................passed
+When User clicks on Weather link............................................passed
+Then User should be on weather forecast page................................passed
+When User enters cityname in your city name field...........................passed
+And Click on search button..................................................passed
+Then System should display correct weather information......................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Mumbai], IN> but was:<[Kolkata], IN>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.qa.stepDefinitions.stepDefinitions.system_should_display_correct_weather_information(stepDefinitions.java:113)
+	at ✽.Then System should display correct weather information(F:/Automation Projects 1/APIWeather/src/main/java/com/qa/features/APIWeather.feature:16)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

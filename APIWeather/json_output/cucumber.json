@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "API Weather Map sign up functionality",
+        "description": "",
+        "id": "api-weather-map-functionality-tests;api-weather-map-sign-up-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12412104541,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens a browser",
+            "match": {
+              "location": "stepDefinitions.user_opens_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179728054,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home screen",
+            "match": {
+              "location": "stepDefinitions.user_is_on_home_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4091051737,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on sign In link",
+            "match": {
+              "location": "stepDefinitions.user_clicks_on_sign_In_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10773961,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sign In screen is displayed",
+            "match": {
+              "location": "stepDefinitions.sign_In_screen_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 297580242,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"naik.prashant1991@yahoo.com\" and \"WeatherMap@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naik.prashant1991@yahoo.com",
+                  "offset": 13
+                },
+                {
+                  "val": "WeatherMap@123",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6296915156,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Submit button",
+            "match": {
+              "location": "stepDefinitions.click_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130017079,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be logged into the application",
+            "match": {
+              "location": "stepDefinitions.user_should_be_logged_into_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6708567276,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Weather link",
+            "match": {
+              "location": "stepDefinitions.user_clicks_on_Weather_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17874356,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on weather forecast page",
+            "match": {
+              "location": "stepDefinitions.user_should_be_on_weather_forecast_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159716805,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters cityname in your city name field",
+            "match": {
+              "location": "stepDefinitions.user_enters_cityname_in_your_city_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3717577532,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepDefinitions.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112156681,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Mumbai], IN\u003e but was:\u003c[Kolkata], IN\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.qa.stepDefinitions.stepDefinitions.system_should_display_correct_weather_information(stepDefinitions.java:113)\r\n\tat ✽.Then System should display correct weather information(F:/Automation Projects 1/APIWeather/src/main/java/com/qa/features/APIWeather.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "System should display correct weather information",
+            "match": {
+              "location": "stepDefinitions.system_should_display_correct_weather_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "API Weather Map functionality tests",
+    "description": "",
+    "id": "api-weather-map-functionality-tests",
+    "keyword": "Feature",
+    "uri": "F:/Automation Projects 1/APIWeather/src/main/java/com/qa/features/APIWeather.feature"
+  }
+]
